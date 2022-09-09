@@ -4,7 +4,7 @@
 import itertools, random
 
 # make a deck of cards
-deck = list(itertools.product(range(1,15),['Spade','Diamond','Club']))
+deck = list(itertools.product(range(1,15),['Diamond','Club']))
 
 # shuffle the cards
 random.shuffle(deck)
